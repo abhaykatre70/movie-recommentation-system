@@ -1,63 +1,50 @@
-Movie Match 🎥
+# MOVIE MATCH 🎥
 
-Overview
+## Project Overview
 
-Movie Match is a personalized movie recommendation system crafted to help you discover films that resonate with your tastes. By utilizing the powerful Close Match algorithm, the system delivers highly accurate suggestions by analyzing user input and matching it with an extensive movie database.
+*Movie Match* is a personalized movie recommendation system designed to help you discover films that align with your preferences. By leveraging the **Close Match algorithm**, it provides highly accurate suggestions by analyzing your input and matching it with a rich movie database.
 
-Dataset
+## Dataset
 
-Movie Match leverages a rich dataset from the YBI Foundation Kaggle repository. This dataset provides comprehensive information about movies, including:
+The dataset used for this project is sourced from the **YBI Foundation Kaggle repository**. You can access it [here](https://github.com/YBIFoundation/Dataset/raw/main/Customer%20Purchase.csv). This dataset contains essential movie details, such as:
 
-Movie Titles: Names of movies for easy reference.
+- **Movie Titles**: The names of movies.
+- **User Ratings**: Reflecting popularity and viewer satisfaction.
+- **Genres**: Helping refine and categorize recommendations.
+- **Other Features**: Additional attributes to improve system accuracy.
 
-User Ratings: Viewer ratings that reflect popularity and satisfaction levels.
+## How It Works
 
-Genres: Categorization of movies into genres, refining the recommendation process.
+### Close Match Algorithm
 
-Additional Features: Other relevant details that enhance the accuracy of recommendations.
+- *Approximate String Matching*: The algorithm accounts for minor input variations, like typos or incomplete titles, ensuring accurate recommendations.
 
-You can explore the dataset by following this link.
+### Personalized Recommendations
 
-How It Works
+1. **Input Your Favorite Movie**: Enter the name of a movie you love.
+2. **Receive Tailored Suggestions**: The system generates a curated list of films matching your taste.
 
-Close Match Algorithm
+## Usage Instructions
 
-Movie Match employs advanced approximate string matching to handle:
+Follow these steps to explore *Movie Match*:
 
-Typos
+1. **Access the Dataset**: Click the link above to explore the available movie database.
+2. **Enter Your Favorite Movie**: Input a film title in the system.
+3. **Get Recommendations**: Enjoy a personalized list of movies tailored to your preferences!
 
-Incomplete or misspelled movie titles
+To see the full code implementation and analysis, visit the Colab notebook [here](https://github.com/virajbhutada/Movie-Recommendation-System/blob/main/Movie%20Recommendation%20System/Movie_Recommendation_System_Colab%20(1).ipynb).
 
-This ensures that users receive precise and relevant movie suggestions, even when their input is less than perfect.
+## Key Features
 
-Personalized Recommendations
+- **User-Friendly Interface**: Intuitive and easy to navigate.
+- **Accurate Recommendations**: Powered by advanced algorithms for precise results.
+- **Diverse Movie Selection**: Covers a wide range of genres and categories.
 
-Input Your Favorite Movie: Begin by entering the title of a movie you enjoy.
+## Conclusion
 
-Receive Curated Suggestions: The system analyzes your input and provides a list of movies tailored to your preferences.
+With *Movie Match*, embark on a cinematic adventure tailored to your preferences. Whether you're in the mood for a timeless classic or the latest blockbuster, *Movie Match* will guide you to your next favorite film.
 
-Getting Started
+---
 
-To start your journey with Movie Match, follow these simple steps:
-
-Explore the Dataset: Visit the dataset to see the range of movies available.
-
-Enter a Movie Title: Input a movie you love into the system.
-
-Enjoy Recommendations: Discover new films that align with your cinematic taste.
-
-For an in-depth look at the implementation, check out the accompanying Colab notebook here.
-
-Key Features
-
-Intuitive Interface: Designed for seamless user interaction.
-
-Accurate Recommendations: Powered by sophisticated algorithms to enhance your movie-watching experience.
-
-Diverse Selection: Access to a wide array of films spanning various genres and eras.
-
-Conclusion
-
-Movie Match is your gateway to discovering films that align with your unique preferences. Whether you’re craving a timeless classic or the latest blockbuster, Movie Match has you covered. Dive into the world of cinema and let Movie Match guide you to your next favorite film!
-
+***Enjoy the magic of movies with Movie Match!***
 
